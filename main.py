@@ -23,7 +23,14 @@ def main():
     print("Welcome to the Math App!!!")
     print("")  # line break
     ### write code to complete this function BELOW here ###
-
+    roll_die()
+    get_question_type()
+    print_question()
+    input_answer()
+    is_correct_answer()
+    print_congratulations()
+    print_correct_answer()
+    print_error_message()
     ### write code to complete this function ABOVE here ###
     print("")  # line break
     print("Game over!!!")
